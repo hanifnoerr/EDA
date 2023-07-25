@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-
+st.set_page_config(initial_sidebar_state="collapsed")
 st.header('🏘️ Perth Housing Exploratory Data Analysis')
 
 #load data
