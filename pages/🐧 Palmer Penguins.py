@@ -4,6 +4,8 @@ from palmerpenguins import load_penguins
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+st.set_page_config(initial_sidebar_state="collapsed")
+
 st.header('🐧 Palmers Penguins Exploratory Data Analysis')
 
 data = load_penguins()
